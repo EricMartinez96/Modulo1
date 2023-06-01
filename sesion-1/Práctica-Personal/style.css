@@ -1,0 +1,29 @@
+body {
+  background-color: lightgrey;
+}
+p {
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+h2 {
+  color: #ff6600;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+ }
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    color: #ff6600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.imagen {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid red;
+}
+
