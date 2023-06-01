@@ -17,9 +17,11 @@ button {
     color: #fff;
     background-color: #025157;
 }
+
 /* Básicamente lo que hace width es ajustar el tamaño del objeto o en este caso imágen en cuiestión según las necesidades, en este caso
-max-width es para ajustar el tamaño general de la imagen, en este ejemplo se utiliza el 100% del tamaño para no perder reoslución*/
-/* Y border se utiliza pra poner un contorno en el objeto o en este caso l aimágen */
+max-width es para ajustar el tamaño general de la imagen, en este ejemplo se utiliza el 100% del tamaño para no perder reoslución.*/
+/* Y border se utiliza pra poner un contorno en el objeto o en este caso la imágen. */
+
 .imagen-postwork {
     max-width: 100%;
     border: 5px solid red;
