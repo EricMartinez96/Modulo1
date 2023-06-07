@@ -33,7 +33,7 @@ max-width es para ajustar el tamaño general de la imagen, en este ejemplo se ut
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 0;
+    font-size: 35;
     height: 45px;
     font-family: sans-serif;
     display: flex;
@@ -54,6 +54,7 @@ max-width es para ajustar el tamaño general de la imagen, en este ejemplo se ut
     text-align: center;
     color: #025157;
     display: flex;
+    justify-content: center;
 }
   
 .actions {
