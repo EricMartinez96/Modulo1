@@ -2,12 +2,12 @@
     background-color: #fffbf7;
 }
 
-.h1 {
+h1 {
     color: #46484c;
     text-align: center;
 }
 
-.p {
+p {
     color: #8b8b8bcc;
     font-family: verdana;
     font-size: 20px;
@@ -36,12 +36,13 @@ max-width es para ajustar el tamaño general de la imagen, en este ejemplo se ut
     font-size: 0;
     height: 45px;
     font-family: sans-serif;
+    display: flex;
 }
 .logo{
     width: 15%;
 }
 .li {
-    display: inline;
+    margin: 12px;
 }
 .logo {
     width: 15%;
@@ -51,6 +52,7 @@ max-width es para ajustar el tamaño general de la imagen, en este ejemplo se ut
     width: 70%;
     text-align: center;
     color: #025157;
+    display: flex;
 }
   
 .actions {
