@@ -125,3 +125,7 @@ max-width es para ajustar el tamaño general de la imagen, en este ejemplo se ut
     width: 120px;
     margin-top: 10px;
   }
+  .publish {
+    display: flex;
+    flex-direction: column;
+  }
