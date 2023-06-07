@@ -26,9 +26,7 @@ max-width es para ajustar el tamaño general de la imagen, en este ejemplo se ut
     max-width: 100%;
     border: 5px solid red;
 }
-.imagen-work {
-   max-width: 100%;
-}
+
 .header {
     margin-top: 40px;
     margin-left: 20px;
@@ -37,18 +35,18 @@ max-width es para ajustar el tamaño general de la imagen, en este ejemplo se ut
     height: 45px;
     font-family: sans-serif;
     display: flex;
+    justify-content: center;
 }
 .logo{
-    width: 15%;
+    width: auto;
+    height: 100px;
+    justify-content: left;
+    display: flex;
 }
 .li {
     margin: 12px;
 }
 
-.logo {
-    width: 15%;
-}
-  
 .navbar {
     width: 70%;
     text-align: center;
