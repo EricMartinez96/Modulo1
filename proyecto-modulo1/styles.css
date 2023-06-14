@@ -305,3 +305,42 @@
     background-color: rgb(238, 226, 226);
 }
 
+.climbing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.high-elo-divitions {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.divition-diamond img, .divition-master img, .divition-gm img, .divition-challenger img {
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    
+}
+
+.divition-diamond, .divition-master, .divition-gm, .divition-challenger {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(94, 2, 2);
+    justify-items: center;
+    align-items: center;
+    background-color: #FFF;
+}
