@@ -5,3 +5,9 @@
 #txtComment {
     resize: none;
 }
+
+.carousel img {
+    max-height: 30%;
+    max-width: 30%;
+}
+
