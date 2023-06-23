@@ -1,0 +1,46 @@
+.espacio {
+    margin: 0 auto;
+    height: 130px;
+    width: 130px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+
+}
+
+.nave-contenedor {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 65px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nave {
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    animation-name: despegue, vuelo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 10;
+    animation-direction: normal;
+
+
+}
+
+.nave img {
+    width: 130px;
+}
+
+@keyframes despegue {
+    from {bottom: -270px;}
+    to {bottom: 270px;}
+}
+@keyframes vuelo {
+    from {left: -50px;}
+    to {left: 50px;}
+}
